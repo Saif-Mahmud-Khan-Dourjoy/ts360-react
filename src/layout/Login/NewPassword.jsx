@@ -35,7 +35,7 @@ export default function NewPassword() {
           {!reset ? (
             <div className=" w-full lg:w-[45%]">
 
-              <div className="font-bold text-[30px] text-gray-950 mt-8">
+              <div className="font-bold text-2xl md:text-[30px] text-gray-950 mt-8">
                 Set a new password
               </div>
 
@@ -71,7 +71,7 @@ export default function NewPassword() {
             </div>) : (
             <div className=" w-full lg:w-[45%]">
 
-              <div className="font-bold text-[30px] text-gray-950 mt-8 text-center">
+              <div className="font-bold text-2xl md:text-[30px] text-gray-950 mt-8 text-center">
                 Password Reset Completed <FontAwesomeIcon color="green" icon={faCircleCheck} />
               </div>
 

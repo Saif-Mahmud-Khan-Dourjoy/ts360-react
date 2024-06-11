@@ -45,7 +45,7 @@ export default function Reset() {
     }
   };
 
-
+ console.log(otp)
 
   return (
     <>
@@ -64,7 +64,7 @@ export default function Reset() {
     
           <div className=" w-full lg:w-[45%]">
 
-            <div className="font-bold text-[30px] text-gray-950 mt-8">
+            <div className="font-bold text-2xl md:text-[30px] text-gray-950 mt-8">
             Password Reset
             </div>
             <div className="text-sm font-medium text-gray-400 dark:text-gray-300">

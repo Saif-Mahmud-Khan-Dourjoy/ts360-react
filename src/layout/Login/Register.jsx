@@ -71,7 +71,7 @@ export default function Register() {
         <div className="flex justify-between items-center">
           <div className=" w-full lg:w-[45%]">
 
-            <div className="font-bold text-[30px] text-gray-950 mt-8">
+            <div className="font-bold text-2xl md:text-[30px] text-gray-950 mt-8">
               Sign Up
             </div>
 
@@ -79,28 +79,28 @@ export default function Register() {
               <form>
                 <div className="grid gap-6 mb-6 sm:grid-cols-2">
                   <div>
-                    <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-                    <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter first name" required />
+                    <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 ">First name</label>
+                    <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Enter first name" required />
                   </div>
                   <div>
-                    <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
-                    <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter last name" required />
+                    <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 ">Last name</label>
+                    <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Enter last name" required />
                   </div>
                   <div>
-                    <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company</label>
-                    <input type="text" id="company" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your company name" required />
+                    <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 ">Company</label>
+                    <input type="text" id="company" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Enter your company name" required />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company Email</label>
-                    <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="you@yourcompany.com" required />
+                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 ">Company Email</label>
+                    <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="you@yourcompany.com" required />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone</label>
-                    <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your phone number" required />
+                    <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 ">Phone</label>
+                    <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Enter your phone number" required />
                   </div>
                   <div>
-                    <label htmlFor="country" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Country</label>
-                    {/* <select id="country" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select your country">
+                    <label htmlFor="country" className="block mb-2 text-sm font-medium text-gray-900 ">Country</label>
+                    {/* <select id="country" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Select your country">
                       <option selected>Choose a country</option>
                       <option value="US">United States</option>
                       <option value="CA">Canada</option>
@@ -122,8 +122,8 @@ export default function Register() {
                   </div>
                 </div>
                 <div className="mb-6">
-                  <label htmlFor="country" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Intended Purpose</label>
-                  <select id="country" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select the application’s intended purpose">
+                  <label htmlFor="country" className="block mb-2 text-sm font-medium text-gray-900 ">Intended Purpose</label>
+                  <select id="country" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Select the application’s intended purpose">
                     <option selected>Select the application’s intended purpose</option>
                     <option value="">Development</option>
                     <option value="">Testing/QA</option>
@@ -137,23 +137,23 @@ export default function Register() {
                 </div>
                 <div className="grid gap-6 mb-1 sm:grid-cols-2">
                   <div className="mb-6">
-                    <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
-                    <input type="password" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter password" required />
+                    <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 ">Password</label>
+                    <input type="password" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Enter password" required />
                   </div>
                   <div className="mb-6">
-                    <label htmlFor="confirm_password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Confirm password</label>
-                    <input type="password" id="confirm_password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Re-enter password" required />
+                    <label htmlFor="confirm_password" className="block mb-2 text-sm font-medium text-gray-900 ">Confirm password</label>
+                    <input type="password" id="confirm_password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Re-enter password" required />
                   </div>
                 </div>
                 <div className="flex items-start mb-6">
                   <div className="flex items-center h-5">
-                    <input id="remember" checked={checked} onChange={(e) => checkBoxValue(e)} type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required />
+                    <input id="remember" checked={checked} onChange={(e) => checkBoxValue(e)} type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 " required />
                   </div>
-                  <label htmlFor="remember" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree to the Terms of Service & Privacy Policy and receive emails from
-                    TestSprint360 <a href="#" className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a>.</label>
+                  <label htmlFor="remember" className="ms-2 text-sm font-medium text-gray-900 ">I agree to the Terms of Service & Privacy Policy and receive emails from
+                    TestSprint360 <a href="#" className="text-blue-600 hover:underline ">terms and conditions</a>.</label>
                 </div>
                 <div className="w-full">
-                  <button type="submit" className={`shadow-lg w-full  text-white ${checked ? "bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600  cursor-pointer" : "bg-gray-400  focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-50 cursor-not-allowed"} font-medium rounded-md text-lg   px-5 py-2.5 text-center `}>Sign Up</button>
+                  <button type="submit" className={`shadow-lg w-full  text-white ${checked ? "bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300   cursor-pointer" : "bg-gray-400  focus:ring-4 focus:outline-none focus:ring-gray-300  cursor-not-allowed"} font-medium rounded-md text-lg   px-5 py-2.5 text-center `}>Sign Up</button>
                 </div>
 
               </form>
