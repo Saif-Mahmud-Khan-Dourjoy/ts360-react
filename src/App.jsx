@@ -14,6 +14,9 @@ import Navbar from './routes/Navbar'
 import ShowNav from "./routes/ShowNav";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from "./routes/Footer";
+import ShowFooter from "./routes/ShowFooter";
+import SingleJob from "./layout/Company/SingleJob";
 
 
 
@@ -22,6 +25,9 @@ function App() {
 
   return (
     <>
+      <ShowNav>
+        <Navbar />
+      </ShowNav>
       <Routes>
 
         <Route path="/login" element={<Login />} />
@@ -35,10 +41,11 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/job-details/:id" element={<SingleJob/>}/>
       </Routes>
-      <ShowNav>
-        <Navbar />
-      </ShowNav>
+      <ShowFooter>
+        <Footer />
+      </ShowFooter>
 
     </>
   );
