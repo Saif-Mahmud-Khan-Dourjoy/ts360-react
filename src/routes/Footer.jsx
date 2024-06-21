@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 export default function Footer() {
     return (
-        <div className="bg-gray-900 pt-14 pb-6 px-10  w-full">
+        <div className="bg-gray-900 pt-14 pb-6 px-10  w-full z-10 relative">
             <div className="flex justify-between md:items-center mb-10 flex-col md:flex-row gap-y-10  md:gap-y-0">
                 <div className="hidden lg:block">
                     <div className="font-medium text-xl cursor-pointer flex items-center gap-1">

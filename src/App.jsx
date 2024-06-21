@@ -4,7 +4,7 @@ import Register from "./layout/Login/Register";
 import Forgot from "./layout/Login/Forgot";
 import Reset from "./layout/Login/Reset";
 import NewPassword from "./layout/Login/NewPassword";
-import Home from "./home/Home";
+import Home from "./layout/Home/Home";
 import AboutUs from "./layout/Company/AboutUs";
 import Career from "./layout/Company/Career";
 import Contact from "./layout/Contact/Contact";
@@ -17,6 +17,15 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from "./routes/Footer";
 import ShowFooter from "./routes/ShowFooter";
 import SingleJob from "./layout/Company/SingleJob";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 2000, // values from 0 to 3000, with step 50ms
+  easing: 'ease',
+});
+
 
 
 

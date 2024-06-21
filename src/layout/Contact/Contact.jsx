@@ -5,7 +5,7 @@ import ContactImg from '../../assets/ContactUs/contactimg.png'
 export default function Contact() {
   return (
     <>
-      <div className="md:flex mt-40 md:mt-[200px] relative -z-10">
+      <div className="md:flex mt-40 md:mt-[200px] relative ">
         <div className="hidden md:block w-[96px] h-[50%] bg-lime-400 absolute md:top-[24%] lg:top-[25%] xl:top-[22%] right-0"></div>
         <div className="md:w-[60%]">
           <div className="lg:pl-24 pl-7 pr-5">

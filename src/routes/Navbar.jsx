@@ -34,7 +34,7 @@ const Navbar = () => {
   }, []);
 
   let Links = [
-    { name: "HOME", link: "/" },
+    // { name: "HOME", link: "/" },
     {
       name: "RESOURCES", link: "/resources", children: true, child: [
         {
@@ -86,10 +86,11 @@ const Navbar = () => {
     <>
 
 
-      <div className="shadow-md w-full fixed top-0 left-0" ref={navbarRef}>
+      <div className="shadow-md w-full fixed top-0 left-0" style={{zIndex:'9999'}} ref={navbarRef}>
         <div className="lg:flex items-center justify-between bg-white py-8 lg:px-10 px-7">
           {/* logo section */}
 
+          <Link to='/'>
           <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
             <img className="w-11 h-11" src={logo} alt="logo" />
             <h1 className="font-bold text-lg ml-2">
@@ -97,6 +98,7 @@ const Navbar = () => {
               <span className="text-[#3AB6FF]">Sprint</span>360
             </h1>
           </div>
+          </Link> 
 
           {/* Menu icon */}
           <div
@@ -158,13 +160,13 @@ const Navbar = () => {
                 </li>
             ))}
             <Link className=" block lg:hidden" to="/login" onClick={handleLinkClick}>
-            <button className="hover:text-blue-400 text-xl  text-[#818181] lg:ml-8 font-bold lg:px-4 pb-[6px] rounded-[30px] duration-500 lg:static">
+            <button className="hover:text-blue-400 text-xl  text-[#818181] lg:ml-8 font-semibold lg:px-4 pb-[6px] rounded-[30px] duration-500 lg:static">
               Login
             </button>
           </Link>
           </ul>
           <Link className=" hidden lg:block" to="/login" onClick={handleLinkClick}>
-            <button className="hover:text-blue-400  text-xl text-[#818181] lg:ml-8 font-bold px-4 py-[6px] rounded-[30px] duration-500 lg:static">
+            <button className="hover:text-blue-400  text-xl text-[#818181] lg:ml-8 font-semibold px-4 py-[6px] rounded-[30px] duration-500 lg:static">
               Login
             </button>
           </Link>
