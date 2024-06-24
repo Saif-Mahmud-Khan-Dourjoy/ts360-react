@@ -14,6 +14,7 @@ export default function Success() {
   return (
     <>
       <div className="py-8 lg:px-24 px-7 ">
+      <Link to='/'>
         <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
           <img className="w-11 h-11" src={logo} alt="logo" />
           <h1 className="font-bold text-lg ml-2">
@@ -21,6 +22,7 @@ export default function Success() {
             <span className="text-[#3AB6FF]">Sprint</span>360
           </h1>
         </div>
+        </Link>
         <div className="flex justify-between items-center">
           <div className=" w-full lg:w-[45%]">
 

@@ -27,16 +27,17 @@ export default function Login() {
 
   return (
     <>
-
-      <div className="absolute top-8 lg:left-24 left-7">
-        <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
-          <img className="w-11 h-11" src={logo} alt="logo" />
-          <h1 className="font-bold text-lg ml-2">
-            <span className="text-[#82D955]">Test</span>
-            <span className="text-[#3AB6FF]">Sprint</span>360
-          </h1>
+      <Link to='/'>
+        <div className="absolute top-8 lg:left-24 left-7">
+          <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
+            <img className="w-11 h-11" src={logo} alt="logo" />
+            <h1 className="font-bold text-lg ml-2">
+              <span className="text-[#82D955]">Test</span>
+              <span className="text-[#3AB6FF]">Sprint</span>360
+            </h1>
+          </div>
         </div>
-      </div>
+      </Link>
       <div className="py-8 lg:px-24 px-7 flex justify-between items-center h-screen">
 
 
@@ -92,61 +93,61 @@ export default function Login() {
         </div>
 
         <div className="hidden lg:block w-[45%] ">
-        <Slider {...settings}>
-              <div className="">
-                <div className="flex flex-col justify-center items-center">
-                  <div className="font-bold text-2xl text-gray-600 text-center">
-                    Simplify Test Scripting
-                  </div>
-                  <div className="font-bold text-xl text-gray-500 text-center my-1 font-pacifico">
-                    with
-                  </div>
-                  <div className="font-bold text-2xl text-gray-600 text-center">
-                    No Code Test Automation
-                  </div>
-                  <div className="mt-5">
-                    <img className="" style={{maxHeight:'500px'}} src={L1} alt="" />
-                  </div>
+          <Slider {...settings}>
+            <div className="">
+              <div className="flex flex-col justify-center items-center">
+                <div className="font-bold text-2xl text-gray-600 text-center">
+                  Simplify Test Scripting
                 </div>
-
-
-
+                <div className="font-bold text-xl text-gray-500 text-center my-1 font-pacifico">
+                  with
+                </div>
+                <div className="font-bold text-2xl text-gray-600 text-center">
+                  No Code Test Automation
+                </div>
+                <div className="mt-5">
+                  <img className="" style={{ maxHeight: '500px' }} src={L1} alt="" />
+                </div>
               </div>
 
-              <div>
-                <div className="flex flex-col justify-center items-center">
-                  <div className="font-bold text-2xl text-gray-600 text-center">
+
+
+            </div>
+
+            <div>
+              <div className="flex flex-col justify-center items-center">
+                <div className="font-bold text-2xl text-gray-600 text-center">
                   The Efficient Path
-                  </div>
-                  <div className="font-bold text-xl text-gray-500 text-center my-1 font-pacifico">
-                    to
-                  </div>
-                  <div className="font-bold text-2xl text-gray-600 text-center">
+                </div>
+                <div className="font-bold text-xl text-gray-500 text-center my-1 font-pacifico">
+                  to
+                </div>
+                <div className="font-bold text-2xl text-gray-600 text-center">
                   Quality Testing
-                  </div>
-                  <div className="mt-5">
-                    <img className="" style={{maxHeight:'500px'}} src={L2} alt="" />
-                  </div>
+                </div>
+                <div className="mt-5">
+                  <img className="" style={{ maxHeight: '500px' }} src={L2} alt="" />
                 </div>
               </div>
-              <div>
-                <div className="flex flex-col justify-center items-center">
-                  <div className="font-bold text-2xl text-gray-600 text-center">
+            </div>
+            <div>
+              <div className="flex flex-col justify-center items-center">
+                <div className="font-bold text-2xl text-gray-600 text-center">
                   Simple Interface
-                  </div>
-                  <div className="font-bold text-xl text-gray-500 text-center my-1 font-pacifico">
-                    but
-                  </div>
-                  <div className="font-bold text-2xl text-gray-600 text-center">
+                </div>
+                <div className="font-bold text-xl text-gray-500 text-center my-1 font-pacifico">
+                  but
+                </div>
+                <div className="font-bold text-2xl text-gray-600 text-center">
                   Powerful Results
-                  </div>
-                  <div className="mt-5">
-                    <img className="" style={{maxHeight:'500px'}} src={L3} alt="" />
-                  </div>
+                </div>
+                <div className="mt-5">
+                  <img className="" style={{ maxHeight: '500px' }} src={L3} alt="" />
                 </div>
               </div>
+            </div>
 
-            </Slider>
+          </Slider>
         </div>
       </div>
 

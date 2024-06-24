@@ -90,7 +90,7 @@ const Navbar = () => {
         <div className="lg:flex items-center justify-between bg-white py-8 lg:px-10 px-7">
           {/* logo section */}
 
-          <Link to='/'>
+          <Link to='/' onClick={handleLinkClick}>
           <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
             <img className="w-11 h-11" src={logo} alt="logo" />
             <h1 className="font-bold text-lg ml-2">
@@ -114,7 +114,7 @@ const Navbar = () => {
 
           {/* linked items */}
           <ul
-            className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static bg-white lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-10  transition-all duration-500 ease-in ${open ? "top-12" : "top-[-490px]"
+            className={`lg:flex lg:items-center lg:pb-0 pb-12 absolute lg:static bg-white lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-10  transition-all duration-500 ease-in ${open ? "top-[107px]" : "top-[-490px]"
               }`}
           >
             {Links?.map((link, index) => (

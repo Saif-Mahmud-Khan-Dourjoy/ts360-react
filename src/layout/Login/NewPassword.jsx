@@ -18,6 +18,7 @@ export default function NewPassword() {
 
   return (
     <>
+     <Link to='/'>
     <div className="absolute top-8 lg:left-24 left-7">
         <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
           <img className="w-11 h-11" src={logo} alt="logo" />
@@ -27,6 +28,7 @@ export default function NewPassword() {
           </h1>
         </div>
     </div>
+    </Link>
       {/*  */}
       <div className="py-8 lg:px-24 px-7 flex justify-between items-center h-screen">
 

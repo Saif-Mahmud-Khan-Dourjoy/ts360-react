@@ -77,20 +77,20 @@ const Home = () => {
   };
   return (
     <>
-      <div className="mt-[109px] main-div" style={{ background: 'linear-gradient(to bottom,#46647f,#1d3850 )' }}>
+      <div className="overflow-hidden mt-[109px] main-div" style={{ background: 'linear-gradient(to bottom,#46647f,#1d3850 )' }}>
         <div className='curved-bg'>
 
-          <div className='relative z-10 md:pl-24 py-5 lg:py-0 pl-7 md:pr-24 pr-7 h-full'>
-            <div className='flex lg:justify-between lg:items-center h-full lg:flex-row flex-col gap-y-10'>
+          <div className='relative z-10 md:pl-24  lg:py-0 pl-7 md:pr-24 pr-7 h-full'>
+            <div className='flex justify-center  lg:justify-between lg:items-center h-full lg:flex-row flex-col gap-y-6 top-[-10%] lg:top-0 relative'>
               <div className='lg:order-1 order-2' data-aos="fade-right">
-                <div className='text-3xl md:text-4xl lg:text-5xl font-bold '>
+                <div className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold '>
                   Continuous Testing at the speed of Agile
                 </div>
-                <div className='text-2xl font-semibold my-4'>
+                <div className='text-xl sm:text-2xl font-semibold my-4'>
                   More Automation, Less Hassle
 
                 </div>
-                <div className="text-2xl font-semibold gradient-text" >Expected Launch December 2024!</div>
+                <div className="text-xl sm:text-2xl font-semibold gradient-text" >Expected Launch December 2024!</div>
                 <div className='mt-4 flex sm:gap-x-3'>
                   <button type="button" className="text-white bg-[#3A9ED9] hover:bg-[#54b1e6eb] focus:outline-none  font-medium rounded-full text-sm md:text-base px-5 py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Buy Now</button>
                   <button type="button" className="text-white bg-[#82D955] hover:bg-[#6fbc49] focus:outline-none  font-medium rounded-full text-sm md:text-base px-5 py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Start Free Trail</button>
@@ -125,7 +125,7 @@ const Home = () => {
 
           <div className='mt-14'>
             <div className='flex justify-between gap-x-20 gap-y-10 flex-wrap flex-col md:flex-row'>
-              <div className='flex flex-col items-center justify-center bg-[#486681] rounded-md p-10 flex-1 hover:shadow-2xl home-about-div'  data-aos="fade-up">
+              <div className='flex flex-col items-center justify-center bg-[#486681] rounded-md p-10 flex-1 hover:shadow-2xl home-about-div' data-aos="fade-up">
                 <div>
                   <img className='max-h-48 mb-5' src={infinite} alt="" />
                 </div>
@@ -236,26 +236,26 @@ const Home = () => {
             </div>
           </div>
 
-          
-         
+
+
 
         </div>
         <div className='mt-24 pb-10 relative px-5 overflow-hidden'>
-            <img src={ellipse} alt=""  className='absolute top-0 right-0 max-h-[120px] z-0'/>
-            <img src={bottomBG} alt=""  className='absolute bottom-0 left-3 max-h-[70px] z-0'/>
-            <img src={Gear2} alt=""  className='gear-rotate absolute bottom-[-16px] left-[50px] max-h-[70px]' style={{zIndex:'0'}}/>
-            <img src={Gear2} alt=""  className='gear-rotate absolute top-[25px] right-0 max-h-[70px]' style={{zIndex:'0'}}/>
+          <img src={ellipse} alt="" className='absolute top-0 right-0 max-h-[120px] z-0' />
+          <img src={bottomBG} alt="" className='absolute bottom-0 left-3 max-h-[70px] z-0' />
+          <img src={Gear2} alt="" className='gear-rotate absolute bottom-[-16px] left-[50px] max-h-[70px]' style={{ zIndex: '0' }} />
+          <img src={Gear2} alt="" className='gear-rotate absolute top-[25px] right-0 max-h-[70px]' style={{ zIndex: '0' }} />
 
 
 
-            <div className='text-xl sm:text-2xl font-bold text-center w-full sm:w-[60%] lg:w-[45%] text-gray-300 mx-auto relative z-10' data-aos="flip-left">
+          <div className='text-xl sm:text-2xl font-bold text-center w-full sm:w-[60%] lg:w-[45%] text-gray-300 mx-auto relative z-10' data-aos="flip-left">
             Unleash continuous testing
             with TestSprint360
-            </div>
-            <div className='mt-14 flex justify-center relative z-10' data-aos="flip-right">
-            <button type="button" className="text-white bg-[#82D955] hover:bg-[#6fbc49] focus:outline-none  font-medium rounded-md text-sm px-5 py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Start Free Trail</button>
-            </div>
           </div>
+          <div className='mt-14 flex justify-center relative z-10' data-aos="flip-right">
+            <button type="button" className="text-white bg-[#82D955] hover:bg-[#6fbc49] focus:outline-none  font-medium rounded-md text-sm px-5 py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Start Free Trail</button>
+          </div>
+        </div>
 
 
 
