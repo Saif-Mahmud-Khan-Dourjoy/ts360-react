@@ -92,13 +92,13 @@ const Home = () => {
                 </div>
                 <div className="text-xl sm:text-2xl font-semibold gradient-text" >Expected Launch December 2024!</div>
                 <div className='mt-4 flex sm:gap-x-3'>
-                  <button type="button" className="text-white bg-[#3A9ED9] hover:bg-[#54b1e6eb] focus:outline-none  font-medium rounded-full text-sm md:text-base px-5 py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Buy Now</button>
-                  <button type="button" className="text-white bg-[#82D955] hover:bg-[#6fbc49] focus:outline-none  font-medium rounded-full text-sm md:text-base px-5 py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Start Free Trail</button>
+                  <button type="button" className="text-white bg-[#3A9ED9] hover:bg-[#54b1e6eb] focus:outline-none  font-medium rounded-full text-sm md:text-xl px-7 md:px-10 py-4 md:py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Buy Now</button>
+                  <button type="button" className="text-white bg-[#82D955] hover:bg-[#6fbc49] focus:outline-none  font-medium rounded-full text-sm md:text-xl px-7 md:px-10 py-4 md:py-2.5 text-center me-2 mb-2" style={{ boxShadow: '0px 61px 17px 0px rgba(0, 0, 0, 0.00), 0px 39px 16px 0px rgba(0, 0, 0, 0.01), 0px 22px 13px 0px rgba(0, 0, 0, 0.04), 0px 10px 10px 0px rgba(0, 0, 0, 0.07), 0px 2px 5px 0px rgba(0, 0, 0, 0.08)' }}>Start Free Trial</button>
                 </div>
               </div>
               <div className='lg:order-2 order-1 flex justify-center' data-aos="fade-left">
 
-                <img className='max-h-80 lg:max-h-[600px] w-fit home-laptop-img' src={laptop} alt="" />
+                <img className='max-h-80 lg:max-h-[1000px] w-fit home-laptop-img' src={laptop} alt="" />
 
 
               </div>

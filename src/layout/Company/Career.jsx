@@ -5,21 +5,21 @@ import { Link } from "react-router-dom";
 
 export default function Career() {
   return (
-    <div className=" mt-40 md:mt-44 lg:px-24 px-7">
+    <div className=" mt-40 md:mt-44 lg:px-24 px-7 overflow-hidden">
       <div className="flex  items-center flex-col">
 
-        <div className="flex gap-x-2 md:flex-row flex-col gap-y-2">
+        <div className="flex gap-x-2 md:flex-row flex-col gap-y-2" data-aos="flip-left">
           <div className="text-center"><span className="text-sky-400 text-4xl md:text-5xl font-bold mb-0">Automate</span> </div>
           <div> <span className="text-zinc-800 text-4xl md:text-5xl font-bold "> your Career Path</span></div>
         </div>
 
-        <div className=" w-full md:w-[80%] xl:w-1/2 mt-6 text-center text-slate-600 text-lg md:text-[22px] font-normal ">{`We're passionate about making testing accessible. Help us empower everyone with the power of automation.`}</div>
+        <div data-aos="flip-right" className=" w-full md:w-[80%] xl:w-1/2 mt-6 text-center text-slate-600 text-lg md:text-[22px] font-normal ">{`We're passionate about making testing accessible. Help us empower everyone with the power of automation.`}</div>
        
         </div>
 
         <div className="my-20">
         
-          <div className="border-2 sm:p-8 px-4 py-4  rounded-lg border-[#2F2F2F] bg-[#F6F6F6]">
+          <div className="border-2 sm:p-8 px-4 py-4  rounded-lg border-[#2F2F2F] bg-[#F6F6F6]" data-aos="zoom-in">
             <div className="text-black text-2xl font-bold  leading-snug">JavaScript Developer</div>
             <div className="text-black text-lg font-medium leading-snug my-8">We are looking for an experienced Javascript developer to join our team.</div>
             <div className="flex justify-between sm:flex-row flex-col">
@@ -45,7 +45,7 @@ export default function Career() {
               </div>
             </div>
           </div>
-          <div className="border-2 sm:p-8 px-4 py-4  rounded-lg border-[#2F2F2F] bg-[#F6F6F6] mt-6">
+          <div className="border-2 sm:p-8 px-4 py-4  rounded-lg border-[#2F2F2F] bg-[#F6F6F6] mt-6" data-aos="zoom-in">
             <div className="text-black text-2xl font-bold  leading-snug">JavaScript Developer</div>
             <div className="text-black text-lg font-medium leading-snug my-8">We are looking for an experienced Javascript developer to join our team.</div>
             <div className="flex justify-between sm:flex-row flex-col">
