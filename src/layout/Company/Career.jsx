@@ -9,8 +9,8 @@ export default function Career() {
       <div className="flex  items-center flex-col">
 
         <div className="flex gap-x-2 md:flex-row flex-col gap-y-2" data-aos="flip-left">
-          <div className="text-center"><span className="text-sky-400 text-4xl md:text-5xl font-bold mb-0">Automate</span> </div>
-          <div> <span className="text-zinc-800 text-4xl md:text-5xl font-bold "> your Career Path</span></div>
+          <div className="text-center"><span className="text-sky-400 text-3xl sm:text-4xl md:text-5xl font-bold mb-0">Automate</span> </div>
+          <div className="text-center"> <span className="text-zinc-800 text-3xl sm:text-4xl md:text-5xl font-bold "> your Career Path</span></div>
         </div>
 
         <div data-aos="flip-right" className=" w-full md:w-[80%] xl:w-1/2 mt-6 text-center text-slate-600 text-lg md:text-[22px] font-normal ">{`We're passionate about making testing accessible. Help us empower everyone with the power of automation.`}</div>

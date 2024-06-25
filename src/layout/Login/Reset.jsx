@@ -69,7 +69,7 @@ export default function Reset() {
           <div className="font-bold text-2xl md:text-[30px] text-gray-950 mt-8">
             Password Reset
           </div>
-          <div className="text-sm font-medium text-gray-400 dark:text-gray-300">
+          <div className="text-sm font-medium text-gray-400 ">
             We sent a code to <span className="text-gray-700 font-semibold">dev.testsprint@testsprint360.com</span>
           </div>
 
@@ -91,9 +91,9 @@ export default function Reset() {
 
 
             <div className="w-full">
-              <Link to='/new-password'><button type="submit" className={`shadow-lg w-full  text-white ${sendCode ? "bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600  cursor-pointer" : "bg-gray-400  focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-50 cursor-not-allowed"}   font-medium rounded-md text-lg   px-5 py-2.5 text-center `}>Send Code</button></Link>
+              <Link to='/new-password'><button type="submit" className={`shadow-lg w-full  text-white ${sendCode ? "bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300   cursor-pointer" : "bg-gray-400  focus:ring-4 focus:outline-none focus:ring-gray-300  cursor-not-allowed"}   font-medium rounded-md text-lg   px-5 py-2.5 text-center `}>Send Code</button></Link>
 
-              {/* <Link to='/new-password'><button type="submit" className={`shadow-lg w-full  text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600  cursor-pointer font-medium rounded-md text-lg   px-5 py-2.5 text-center `}>Send Code</button></Link>  */}
+              {/* <Link to='/new-password'><button type="submit" className={`shadow-lg w-full  text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300   cursor-pointer font-medium rounded-md text-lg   px-5 py-2.5 text-center `}>Send Code</button></Link>  */}
             </div>
 
 
@@ -102,7 +102,7 @@ export default function Reset() {
           </div>
           <hr className="mt-6 mb-3" />
 
-          <div className="text-sm text-center text-gray-400 dark:text-gray-300">
+          <div className="text-sm text-center text-gray-400 ">
             {`Didn’t receive the code?`} <span className="text-blue-400 cursor-pointer">Resend it</span>
           </div>
           <div className="text-center text-gray-400 mt-6">

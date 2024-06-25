@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Login from "./layout/Login/Login";
 import Register from "./layout/Login/Register";
 import Forgot from "./layout/Login/Forgot";
@@ -25,6 +27,15 @@ AOS.init({
   duration: 2000, // values from 0 to 3000, with step 50ms
   easing: 'ease',
 });
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null; // This component doesn't render anything
+}
 
 
 
@@ -34,6 +45,7 @@ function App() {
 
   return (
     <>
+     <ScrollToTop />
       <ShowNav>
         <Navbar />
       </ShowNav>

@@ -26,14 +26,13 @@
     background-position: top;
     background-repeat: no-repeat;
  
-    transform: scaleX(1.15);
+    transform: scaleX(1.07);
     
    
 }
 
 .gradient-text{
     background:linear-gradient(to right,#70D082 0%,#51AAEA 50%,#e97b7d 100%);
-    width: fit-content;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400%;
