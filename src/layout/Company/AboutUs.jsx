@@ -7,6 +7,7 @@ import cof3 from '../../assets/AboutUs/cof3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import bgImage from '../../assets/AboutUs/bg.png';
+import CPic from '../../assets/AboutUs/CPic.png';
 
 export default function AboutUs() {
   return (
@@ -68,7 +69,7 @@ export default function AboutUs() {
           </div>
           <div className='mt-10 flex justify-center items-center gap-x-20 gap-y-12 mb-5 flex-wrap'>
             <div className='flex justify-center items-center flex-col ' data-aos="fade-up-right">
-              <img src={cof1} className='h-32 sm:h-40' alt="" />
+              <img src={CPic} className='h-32 sm:h-40' alt="" />
 
               <div className='text-center text-xl font-bold mt-8'>
                 Koushik Das
@@ -83,7 +84,7 @@ export default function AboutUs() {
               </div>
             </div>
             <div className='flex justify-center items-center flex-col ' data-aos="zoom-in" >
-              <img src={cof2} className='h-32 sm:h-40' alt="" />
+              <img src={CPic} className='h-32 sm:h-40' alt="" />
 
               <div className='text-center text-xl font-bold mt-8'>
                 Suyog Khedekar
@@ -99,7 +100,7 @@ export default function AboutUs() {
             </div>
 
             <div className='flex justify-center items-center flex-col ' data-aos="fade-up-left">
-              <img src={cof3} className='h-32 sm:h-40' alt="" />
+              <img src={CPic} className='h-32 sm:h-40' alt="" />
 
               <div className='text-center text-xl font-bold mt-8'>
                 Ashikur Khan
