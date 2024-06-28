@@ -77,7 +77,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="overflow-hidden mt-[109px] main-div" style={{ background: 'linear-gradient(to bottom,#46647f,#1d3850 )' }}>
+      <div className="overflow-hidden mt-[107px] main-div" style={{ background: 'linear-gradient(to bottom,#46647f,#1d3850 )' }}>
         <div className='curved-bg'>
 
           <div className='relative z-10 md:pl-24  lg:py-0 pl-7 md:pr-24 pr-7 h-full'>

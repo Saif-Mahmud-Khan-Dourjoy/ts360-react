@@ -45,7 +45,7 @@ export default function Career() {
               </div>
             </div>
           </div>
-          <div className="border-2 sm:p-8 px-4 py-4  rounded-lg border-[#2F2F2F] bg-[#F6F6F6] mt-6" data-aos="zoom-in">
+          {/* <div className="border-2 sm:p-8 px-4 py-4  rounded-lg border-[#2F2F2F] bg-[#F6F6F6] mt-6" data-aos="zoom-in">
             <div className="text-black text-2xl font-bold  leading-snug">JavaScript Developer</div>
             <div className="text-black text-lg font-medium leading-snug my-8">We are looking for an experienced Javascript developer to join our team.</div>
             <div className="flex justify-between sm:flex-row flex-col">
@@ -69,7 +69,7 @@ export default function Career() {
               </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
 
