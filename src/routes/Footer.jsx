@@ -6,7 +6,8 @@ export default function Footer() {
     return (
         <div className="bg-gray-900 pt-14 pb-6 px-10  w-full z-10 relative">
             <div className="flex justify-between md:items-center mb-10 flex-col md:flex-row gap-y-10  md:gap-y-0">
-                <div className="hidden lg:block">
+                <div className="hidden lg:block w-fit">
+                    <Link to='/'>
                     <div className="font-medium text-xl cursor-pointer flex items-center gap-1">
                         <img className="w-11 h-11" src={logo} alt="logo" />
                         <h1 className="font-bold text-lg ml-2">
@@ -14,6 +15,7 @@ export default function Footer() {
                             <span className="text-[#3AB6FF]">Sprint</span> <span className="text-white">360</span>
                         </h1>
                     </div>
+                    </Link>
                 </div>
                 <div className="flex sm:justify-between text-white gap-x-14 md:gap-x-8 xl:gap-x-14 ">
                     <div className="sm:flex sm:justify-between md:gap-x-8 xl:gap-x-14 w-full">
