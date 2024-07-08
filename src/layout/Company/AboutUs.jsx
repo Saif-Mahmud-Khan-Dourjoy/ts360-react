@@ -1,17 +1,22 @@
 
 import target from '../../assets/AboutUs/Target.png'
 import bulb from '../../assets/AboutUs/Lightbulb.png'
-import cof1 from '../../assets/AboutUs/cof1.png'
-import cof2 from '../../assets/AboutUs/cof2.png'
-import cof3 from '../../assets/AboutUs/cof3.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import bgImage from '../../assets/AboutUs/bg.png';
 import CPic from '../../assets/AboutUs/CPic.png';
+import { Helmet } from 'react-helmet-async'
 
 export default function AboutUs() {
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us</title>
+        <meta name="title" content="About Us"   />
+        <meta name="description" content="Know about our product"   />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
       <div className="lg:px-24 px-7 pt-44 overflow-hidden">
         <div className="font-bold text-3xl md:text-5xl text-center " data-aos="flip-left">
           <span className="text-[#3AB6FF]">Faster,</span> <span className="text-[#82D955]">Simpler</span> <span className="text-gray-900 block md:inline mt-2 ">Testing for Everyone</span>

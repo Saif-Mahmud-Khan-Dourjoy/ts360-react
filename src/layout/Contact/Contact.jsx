@@ -4,10 +4,18 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Laptop from '../../assets/ContactUs/laptopContact.png'
 import Intersect from '../../assets/ContactUs/Intersect.png'
 import Intersect1 from '../../assets/ContactUs/Intersect-1.png'
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us</title>
+        <meta name="title" content="Contact Us"   />
+        <meta name="description" content="Contact us if you have any kind of query"   />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
       <div className="md:flex mt-40 md:mt-[200px] relative overflow-hidden">
         {/* <div data-aos="fade-left" className="hidden md:block w-[96px] h-[50%] bg-lime-400 absolute md:top-[24%] lg:top-[25%] xl:top-[22%] right-0"></div> */}
         <div className="md:w-[60%]">

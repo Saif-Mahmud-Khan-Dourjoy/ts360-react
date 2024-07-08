@@ -2,10 +2,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Career() {
   return (
-    <div className=" mt-40 md:mt-44 lg:px-24 px-7 overflow-hidden">
+    <> 
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Career</title>
+        <meta name="title" content="Career" />
+        <meta name="description" content="Join our wonderful company and team" />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
+      <div className=" mt-40 md:mt-44 lg:px-24 px-7 overflow-hidden">
       <div className="flex  items-center flex-col">
 
         <div className="flex gap-x-2 md:flex-row flex-col gap-y-2" data-aos="flip-left">
@@ -75,5 +84,7 @@ export default function Career() {
 
       
     </div>
+    </>
+    
   )
 }

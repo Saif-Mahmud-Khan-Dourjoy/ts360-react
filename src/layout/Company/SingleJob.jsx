@@ -2,10 +2,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import { Helmet } from "react-helmet-async";
 
 export default function SingleJob() {
     return (
-        <div className="mt-40 md:mt-44 lg:px-24 px-7 mb-10">
+        <>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Job Details</title>
+                <meta name="title" content="Job Details" />
+                <meta name="description" content="Find your preferred job here" />
+                <link rel="canonical" href={window.location.href} />
+            </Helmet>
+            <div className="mt-40 md:mt-44 lg:px-24 px-7 mb-10">
             <div className="flex sm:justify-between sm:items-center sm:flex-row flex-col">
                 <div className="">
                     <div className=" text-3xl md:text-4xl font-bold mb-6">
@@ -159,5 +168,7 @@ export default function SingleJob() {
                 </div>
             </div>
         </div>
+        </>
+        
     )
 }
